@@ -1,0 +1,106 @@
+/* CSS Animations for Electrician Services Corp site */
+
+/* Fade in up */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Slide in left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Pulse glow for CTA */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(245,158,11,0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(245,158,11,0);
+  }
+}
+
+/* Electric flicker for hero badge */
+@keyframes electricPulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.7; }
+}
+
+/* Hero content animation */
+.hero-badge {
+  animation: fadeInUp 0.6s ease both;
+}
+
+.hero-title {
+  animation: fadeInUp 0.6s 0.15s ease both;
+}
+
+.hero-tagline {
+  animation: fadeInUp 0.6s 0.25s ease both;
+}
+
+.hero-actions {
+  animation: fadeInUp 0.6s 0.35s ease both;
+}
+
+.hero-stats {
+  animation: fadeInUp 0.6s 0.5s ease both;
+}
+
+/* Trust bar slide in */
+#trust-bar {
+  animation: fadeIn 0.8s 0.6s ease both;
+}
+
+/* CTA button pulse */
+.btn-primary.pulse {
+  animation: pulseGlow 2.5s infinite;
+}
+
+/* Badge flicker */
+.hero-badge svg {
+  animation: electricPulse 2s ease-in-out infinite;
+}
+
+/* Hover lift for cards */
+.service-card,
+.pricing-card {
+  will-change: transform;
+}
+
+/* Nav brand shimmer */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Success state for form */
+@keyframes checkBounce {
+  0%   { transform: scale(0); opacity: 0; }
+  60%  { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.form-success-icon {
+  animation: checkBounce 0.5s ease both;
+}

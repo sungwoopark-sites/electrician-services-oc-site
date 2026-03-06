@@ -1,0 +1,62 @@
+{
+  "business_name": "Electrician Services Corp",
+  "tagline": "Electrical and HVAC in Orange County California",
+  "phone": "714-987-2368",
+  "email": null,
+  "address": "615 Pepperwood Dr. Brea, CA 92821",
+  "license": "CA #867096 \u2014 C10-Electrical, C20-HVAC, B-General Contracting",
+  "hours": null,
+  "pricing": {
+    "residential_trip_charge": "$99",
+    "commercial_trip_charge": "$198",
+    "free_estimates": true,
+    "flat_rate": true,
+    "up_front_pricing": true
+  },
+  "services": [
+    "Circuit Breakers & Breaker Sizing",
+    "Electrical Troubleshooting & Diagnostics",
+    "Light Switches & Lighting (ceiling fans, chandeliers, LED, motion sensors, recessed can lights, pendant)",
+    "Panel Upgrades & House Rewires",
+    "Receptacles & GFCIs",
+    "Appliance Hookups",
+    "Pool & Spa Hookups",
+    "Whole House Fans",
+    "Surge Protection",
+    "Installations at 120V / 240V / 277V / 480V",
+    "AC Repair & Installation",
+    "Heating Repair",
+    "HVAC Services"
+  ],
+  "about_text": "Electricity is just too dangerous for someone that has no experience to work with. We are a licensed and insured professional contractor with California credentials. We maintain a strong safety record and comply with local and NEC code. We are screened through Angie's List and Home Advisor.",
+  "trust_signals": [
+    "Licensed & Insured",
+    "Flat-Rate Pricing",
+    "Free Estimates on Installs",
+    "Same-Day Service Available",
+    "Written Guarantees",
+    "Screened on Angie's List & Home Advisor",
+    "Up Front Pricing"
+  ],
+  "service_areas": [
+    "Anaheim", "Brea", "Buena Park", "Costa Mesa", "Cypress",
+    "Fountain Valley", "Fullerton", "Garden Grove", "Huntington Beach",
+    "Irvine", "La Habra", "La Mirada", "La Palma", "Los Alamitos",
+    "Newport Beach", "Orange", "Placentia", "Pomona", "Santa Ana",
+    "Santa Fe Springs", "Stanton", "Tustin", "Westminster", "Whittier",
+    "Yorba Linda"
+  ],
+  "testimonials": [],
+  "team_members": [],
+  "social_links": {},
+  "brand_colors": {
+    "primary": "#1a2e5c",
+    "secondary": "#f59e0b",
+    "accent": "#ffffff"
+  },
+  "images_downloaded": [
+    "assets/images/jacuzzi-hookup.jpg",
+    "assets/images/electrical-panel.jpg",
+    "assets/images/logo.jpg"
+  ]
+}
